@@ -1,0 +1,32 @@
+.navbar {
+    background-color: white;
+    font-size: 15px;
+}
+
+body{
+    font-size: 18px;
+    background-color: #FAFAFA;
+}
+
+.serviços{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.margin{
+    padding-bottom: 35px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.bg-footer{
+    background-color: #3158BF;
+    color: #F3F3F3;
+}
