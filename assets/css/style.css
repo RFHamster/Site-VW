@@ -3,6 +3,12 @@
     font-size: 15px;
 }
 
+.menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 body{
     font-size: 18px;
     background-color: #FAFAFA;
@@ -10,14 +16,16 @@ body{
 
 .serviços{
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 100px;
     background-color: #FAFAFA;
     text-align: center;
+
 }
 
-a{
+.col-md-3 a{
     text-decoration: none;
-    color: black;
+    color: inherit;
+    cursor: pointer;
 }
 
 .margin{
@@ -29,4 +37,26 @@ a{
 .bg-footer{
     background-color: #3158BF;
     color: #F3F3F3;
+}
+
+.marginb{
+    padding-bottom: 35px;
+    padding-top: 25px;
+}
+
+h5 {
+    font-size: 15px;
+    text-align:left;
+    padding-bottom: 18px;
+    padding-left: 30px;
+}
+
+h6{
+    font-size: 12px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+}
+
+.arranjo{
+    text-align: center;
 }
