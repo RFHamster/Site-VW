@@ -7,19 +7,12 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    font-family: "Leelawadee";
 }
 
 body{
-    font-size: 18px;
+    font-size: 20px;
     background-color: #FAFAFA;
-}
-
-.serviços{
-    padding-top: 10px;
-    padding-bottom: 100px;
-    background-color: #FAFAFA;
-    text-align: center;
-
 }
 
 .col-md-3 a{
@@ -29,9 +22,11 @@ body{
 }
 
 .margin{
-    padding-bottom: 35px;
-    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-top: 40px;
     text-align: center;
+    font-family: "Franklin Gothic Medium";
+    
 }
 
 .bg-footer{
@@ -57,6 +52,6 @@ h6{
     padding-left: 30px;
 }
 
-.arranjo{
-    text-align: center;
+h4 {
+    font-size: 25px;
 }
