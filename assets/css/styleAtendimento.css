@@ -1,0 +1,38 @@
+.onde-est{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+.img-prin{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 850px;
+    height: 600px;
+}
+
+.main-text{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.texto{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1100px){
+    .img-prin{
+        width: 500px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .img-prin{
+        width: 400px;
+        height: 250px;
+    }
+}

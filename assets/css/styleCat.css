@@ -1,0 +1,33 @@
+.serviços .content{
+    width: auto;
+    background-color: white;
+    background-clip: padding-box;
+    padding: 20px;
+}
+
+.serviços .col-md-4{
+    margin-bottom: 20px;
+}
+.serviços .col-md-4 img{
+    max-width: 100%; /* Define a largura máxima da imagem em relação ao contêiner */
+    height: auto; /* Permite que a altura seja ajustada proporcionalmente */
+}
+
+h5 {
+    font-size: 1em;
+    text-align:left;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+  
+  @media screen and (max-width: 1020px) {
+    h5 {
+      font-size: 0.8em; /* Define um tamanho de fonte menor para telas menores */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    h5 {
+      font-size: 0.7em; /* Define um tamanho de fonte ainda menor para telas ainda menores */
+    }
+  }
