@@ -1,13 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
     background-color: white;
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .menu {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     font-family: "Leelawadee";
+    margin-bottom: 20px;
+    z-index: 999;
 }
 
 body{
@@ -15,7 +22,7 @@ body{
     background-color: #FAFAFA;
 }
 
-.col-md-3 a{
+.col-md-3 a, .col-md-4 a{
     text-decoration: none;
     color: inherit;
     cursor: pointer;
@@ -26,7 +33,10 @@ body{
     padding-top: 40px;
     text-align: center;
     font-family: "Franklin Gothic Medium";
-    
+}
+
+.main-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .bg-footer{

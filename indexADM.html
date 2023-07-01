@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>VW | Veículos e Transporte</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="assets/img/icon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/styleindexADM.css">
+    <script src="https://kit.fontawesome.com/3b62c538ea.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header id="admin-header">
+        <a class="navbar-brand" href="indexADM.html">
+            <img src="assets/img/Logo VW.png" width="220" height="50">
+        </a>
+        <h1>Página de Administração</h1>
+    </header>
+
+
+    <main>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Menu</li>
+            </ol>
+        </nav>
+        <div id="admin-container">
+            <section class="admin-section">
+                <h2>Pedidos Submetidos</h2>
+                <form action="telaPedidos.php?codTela=1" method="POST">
+                    <button class="admin-button" type="submit">Refinanciamentos</button>
+                </form>
+                <form action="telaPedidos.php?codTela=2" method="POST">
+                    <button class="admin-button" type="submit">Compras</button>
+                </form>
+                <form action="telaPedidos.php?codTela=3" method="POST">
+                    <button class="admin-button" type="submit">Trocas</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer id="admin-footer">
+        <p>Tela de Adiministração VW Veículos</p>
+        <a href="index.html">Voltar para a Página Principal</a>
+    </footer>
+
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
